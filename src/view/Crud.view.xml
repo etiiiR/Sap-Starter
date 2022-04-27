@@ -1,0 +1,20 @@
+<mvc:View
+	controllerName="ch.coop.starter.controller.Crud"
+	displayBlock="true"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+	
+	<MessagePage
+		title="{i18n>app_title}"
+		text="{i18n>app_title}"
+		icon="sap-icon://accept"
+		id="page"
+		description="{i18n>app_description}">
+		<buttons>
+			<Button
+				text="Return to the previous Page"
+				press="previousPage" />
+		</buttons>
+	</MessagePage>
+
+</mvc:View>

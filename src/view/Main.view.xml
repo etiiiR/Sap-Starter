@@ -2,19 +2,24 @@
 	controllerName="ch.coop.starter.controller.Main"
 	displayBlock="true"
 	xmlns="sap.m"
-	xmlns:mvc="sap.ui.core.mvc">
-	
+	xmlns:mvc="sap.ui.core.mvc"
+>
 	<MessagePage
 		title="{i18n>app_title}"
 		text="{i18n>app_title}"
 		icon="sap-icon://accept"
 		id="page"
-		description="{i18n>app_description}">
+		description="{i18n>app_description}"
+	>
 		<buttons>
 			<Button
 				text="{i18n>btn_text}"
-				press="routeNextPage" />
+				press="routeNextPage"
+			/>
+			<Button
+				text="{i18n>btn_crud}"
+				press="routeToCrud"
+			/>
 		</buttons>
 	</MessagePage>
-
 </mvc:View>

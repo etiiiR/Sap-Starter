@@ -77,6 +77,11 @@
 					"pattern": "next/",
 					"name": "next",
 					"target": "next"
+				},
+				{
+					"pattern": "crud/",
+					"name": "crud",
+					"target": "crud"
 				}
 			],
 			"targets": {
@@ -87,6 +92,10 @@
 				"next": {
 					"viewId": "next",
 					"viewName": "Next"
+				},
+				"crud": {
+					"viewId": "crud",
+					"viewName": "Crud"
 				}
 			}
 		}

@@ -14,4 +14,12 @@ export default class Main extends BaseController {
 
 	}
 
+
+	public routeToCrud() : void {
+		debugger;
+		const router = this.getRouter()
+		router.navTo('crud')
+
+	}
+
 }
