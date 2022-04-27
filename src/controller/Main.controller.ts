@@ -6,8 +6,12 @@ import BaseController from "./BaseController";
  */
 export default class Main extends BaseController {
 
-	public sayHello() : void {
-		MessageBox.show("Hello World!");
+
+	public routeNextPage() : void {
+		debugger;
+		const router = this.getRouter()
+		router.navTo('next')
+
 	}
 
 }
