@@ -84,6 +84,11 @@
 					"pattern": "crud/",
 					"name": "crud",
 					"target": "crud"
+				},
+				{
+					"pattern": "smart/",
+					"name": "smart",
+					"target": "smart"
 				}
 			],
 			"targets": {
@@ -98,6 +103,10 @@
 				"crud": {
 					"viewId": "crud",
 					"viewName": "Crud"
+				},
+				"smart": {
+					"viewId": "smart",
+					"viewName": "SmartTable"
 				}
 			}
 		}

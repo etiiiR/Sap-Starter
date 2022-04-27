@@ -6,20 +6,8 @@ import BaseController from "./BaseController";
  */
 export default class Main extends BaseController {
 
-
-	public routeNextPage() : void {
-		debugger;
-		const router = this.getRouter()
-		router.navTo('next')
-
+	public routeTo(route: string) : void {
+		// Navigate to the route from the XML Event Input
+		this.getRouter().navTo(route)
 	}
-
-
-	public routeToCrud() : void {
-		debugger;
-		const router = this.getRouter()
-		router.navTo('crud')
-
-	}
-
 }

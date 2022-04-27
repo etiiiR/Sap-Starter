@@ -14,11 +14,15 @@
 		<buttons>
 			<Button
 				text="{i18n>btn_text}"
-				press="routeNextPage"
+				press="routeTo('next')"
 			/>
 			<Button
 				text="{i18n>btn_crud}"
-				press="routeToCrud"
+				press="routeTo('crud')"
+			/>
+			<Button
+				text="{i18n>btn_smart}"
+				press="routeTo('smart')"
 			/>
 		</buttons>
 	</MessagePage>
